@@ -1,0 +1,38 @@
+{
+    "name": "@jasonirl/angular-eslint-config",
+    "description": "An ESLint Config for Angular",
+    "version": "1.0.0",
+    "author": {
+      "name": "JasonIRL",
+      "email": "JasonIRL@users.noreply.github.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JasonIRL/angular-eslint-config.git"
+    },
+    "keywords": [
+      "lint",
+      "eslint"
+    ],
+    "main": "index.js",
+    "dependencies": {
+      "@angular-eslint/eslint-plugin": "^13.0.1",
+      "@angular-eslint/eslint-plugin-template": "^13.0.1",
+      "@angular-eslint/template-parser": "^13.0.1",
+      "@typescript-eslint/eslint-plugin": "^5.3.1",
+      "@typescript-eslint/parser": "^5.3.1",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-import": "^2.25.3",
+      "eslint-plugin-jsdoc": "^37.0.3",
+      "eslint-plugin-prefer-arrow": "^1.2.3",
+      "eslint-plugin-prettier": "^4.0.0",
+      "eslint-plugin-regex": "^1.8.0",
+      "eslint-plugin-unused-imports": "^2.0.0"
+    },
+    "peerDependencies": {
+      "@angular/core": "^13.0.1",
+      "eslint": "^8.2.0",
+      "prettier": "^2.4.1",
+      "typescript": ">=4.4.0"
+    }
+  }
